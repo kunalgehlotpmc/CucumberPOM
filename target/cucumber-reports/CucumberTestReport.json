@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Execute homepage test cases",
+        "description": "",
+        "id": "home-page-tests;execute-homepage-test-cases",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21924321500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is at home page",
+            "match": {
+              "location": "Homepagestep.user_at_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130316200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Banner is displayed",
+            "match": {
+              "location": "Homepagestep.banner_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37748300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Contact us link is displayed",
+            "match": {
+              "location": "Homepagestep.contact_us_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44183900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Login link is displayed",
+            "match": {
+              "location": "Homepagestep.login_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1364554500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user quits browser",
+            "match": {
+              "location": "Homepagestep.user_quits_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home page tests",
+    "description": "",
+    "id": "home-page-tests",
+    "keyword": "Feature",
+    "uri": "homepage.feature"
+  }
+]
